@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    transition: all .3s;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.container {
+    background-color: #222;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.fact-item {
+    flex: 1 1 16rem;
+    background-color: #f1f1f1;
+    border-radius: 1rem;
+    padding: 5rem;
+    text-align: center;
+    box-shadow: 0 1.5rem 2rem rgba(0,0,0,.8);
+    transition: .5s;
+}
+
+.fact-item:hover {
+    transform: translateY(-1rem);
+}
+
+.fact-item i {
+     color: dodgerblue;
+     font-size: 8rem;
+     font-weight: 800;
+}
+
+.fact-item h5 {
+    font-size: 2rem;
+    white-space: nowrap;
+    margin: 1.5rem 0rem;
+}
+
+.fact-item h2 {
+    font-size: 5rem;
+    font-weight: 700;
+}

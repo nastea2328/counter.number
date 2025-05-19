@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Up jQuery plugin using HTML, CSS & JavaScript</title>
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" rel="stylesheet" type="text/css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-aweome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <section class="container">
+        <div class="row">
+            <div class="fact-item">
+                <i class="fa fa-certificate"></i>
+                <h5>Years Experience</h5>
+                <h2 class="counter-up">17</h2>
+            </div>
+            <div class="fact-item">
+                    <i class="fa fa-users-cog"></i>
+                    <h5>Team Members</h5>
+                    <h2 class="counter-up">55</h2>
+            </div>
+            <div class="fact-item">
+                    <i class="fa fa-users"></i>
+                    <h5>Satisfied Clients</h5>
+                    <h2 class="counter-up">8000</h2>
+            </div>
+            <div class="fact-item">
+                        <i class="fa fa-check"></i>
+                        <h5>Projects Done</h5>
+                        <h2 class="counter-up">12000</h2>
+            </div>
+        </div>
+    </section>
+   
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <script>
+
+        $('.counter-up').counterUp({
+            delay: 10,
+            time: 3000
+        });
+    </script>
+</body>
+</html>
